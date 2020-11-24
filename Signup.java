@@ -58,7 +58,7 @@ public class Signup extends AppCompatActivity {
                 .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                     @Override
                     public void onSuccess(DocumentReference documentReference) {
-                        Toast.makeText(getApplicationContext(), "Account Created!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Member Registered", Toast.LENGTH_LONG).show();
                     }
                 })
                 .addOnFailureListener(new OnFailureListener() {
