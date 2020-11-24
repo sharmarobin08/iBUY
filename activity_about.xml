@@ -19,7 +19,6 @@
 
     <TextView
         android:id="@+id/textView2"
-        original
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
@@ -27,16 +26,12 @@
         android:layout_marginTop="50dp"
         android:text="iBuy was a British satellite-based home shopping channel.
 
-Created & launched on 18 April 2005, by Andy Sheldon, who was one of George Spitaliotis's senior management figures at Auction World.tv and also created their sister channel Chase-It.tv.
+Created and launched on 18 April 2005, by Andy Sheldon, who was one of George Spitaliotis's senior management figures at Auction World.tv and also created their sister channel Chase-It.tv.
 
 iBuy launched from the ex-AuctionWorld studio at Teddington Studios, Broom Road, Teddington. It was later relocated in early 2006, to Studio 1, Unit 1A, Hogarth Business Park, Burlington Lane, Chiswick, London. iBuy operates as a falling price auction channel, similar to that of the 'original' auction shopping channel idea used by bid tv, price-drop tv, and airs between 9:00 AM and 12:00 PM, 7 days a week on Sky. Towards the end of 2006, was also broadcast between 9:00 AM–12:00 PM on Freeview, as part of Five US.
 
 iBuy2 broadcast 7 days a week on Sky 632, also broadcasting live falling price auctions from a separate studio, which was the home of the defunct HSN owned quiz channel Quiz TV. iBuy2 ended on 18 February 2007, with the channel now only showing pre-recorded iBuy Choice.
-
-iBuy Unique was broadcast every day during iBuy's off-air hours, on Sky 631 from 12:00 PM midnight to 9:00 AM and on Sky 632 from 12:00 PM midnight to 3:00 PM, and then from 6:00 PM onwards. iBuy Unique operated on the similar "
-    " channel idea of the HSN financed Bid2Win where the 'Lowest Unique Bid' auction, where bidders are invited to place a bid by phone, by SMS text message or online at www.ibuyunique.tv. However, this is an auction with a difference, as only one person can win. For example, if two bids are placed, at 1:00 PM and 2:00 PM, 1:00 PM is the currently the lowest unique bid, however if someone else comes in with a bid of 1:00 PM, 1:00 PM is no longer a valid bid, and therefore 2:00 PM is now the lowest unique bid.
-
-On iBuy, viewers are invited to bid in 'Freefall' auctions by picking up their landline phone or mobile phone and dialling the number on screen, or logging onto the iBuy website at www.ibuy.tv and bidding online. The price of the item up for auction falls until all the quantity is sold, and at the end of the auction (when the quantity is sold out,) everyone pays the lowest price."
+ 'Freefall' auctions by picking up their landline phone or mobile phone and dialling the number on screen, or logging onto the iBuy website at www.ibuy.tv and bidding online. The price of the item up for auction falls until all the quantity is sold, and at the end of the auction (when the quantity is sold out,) everyone pays the lowest price."
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="291dp" />
 </LinearLayout>
