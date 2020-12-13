@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         b2 = findViewById(R.id.button2);
         b3 = findViewById(R.id.button3);
         b4 = findViewById(R.id.button4);
+
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -44,6 +45,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v2) {
+                openlogin();
+            }
+        });
+
     }
 
     private void openSignup() {
@@ -53,5 +61,9 @@ public class MainActivity extends AppCompatActivity {
     private void openabout() {
         Intent i = new Intent(this, about.class);
 
+    }
+
+    private void openlogin() {
+        Intent i = new Intent(this, about.class);
     }
 }

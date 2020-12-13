@@ -17,7 +17,7 @@ public class login extends AppCompatActivity {
         b1 = findViewById(R.id.b);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v2) {
                 openretrofitrail();
             }
         });

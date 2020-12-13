@@ -19,7 +19,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 public class Signup extends AppCompatActivity {
     TextView t1, t2, t3, t4, t5;
     EditText e1, e2, e3, e4, e5;
-    Button b;
+    Button b2;
     FirebaseFirestore db;
 
     @Override
@@ -36,9 +36,9 @@ public class Signup extends AppCompatActivity {
         e3 = findViewById(R.id.edit3);
         e4 = findViewById(R.id.edit4);
         e5 = findViewById(R.id.edit5);
-        b = findViewById(R.id.button);
+        b2 = findViewById(R.id.button);
         db = FirebaseFirestore.getInstance();
-        b.setOnClickListener(new View.OnClickListener() {
+        b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String Name = e1.getText().toString();
